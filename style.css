@@ -1,0 +1,162 @@
+
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.bnt-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: aqua;
+    border: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 3s;
+}
+
+/* TITULO */
+h2.titulo{
+    color: #efefef;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2.titulo span {
+    text-align: center;
+    color: aqua;
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #efefef;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.12);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.bnt-contato button:hover{
+    box-shadow: 0px 0px 9px rgba(0, 255, 255, 0.958);
+    transform: scale(1.05);
+    margin: 10px;
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap:  90px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left; 
+}
+
+.topo-do-site h1 span{
+    color: aqua;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 20px 0;
+}
+
+@keyframes nike{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.img-topo-site{
+    animation: nike 2s ease-in-out infinite alternate;
+    margin-right: 45px;
+}
+/* ESTILO DAS ESPECIALIDADES */
+section.especialiades {
+    padding: 40px 4%;
+}
+
+section.especialiades.flex {
+    gap: 60px;
+}
+
+.especialiades .especialiades-box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin-top: 45px;
+    transition: .2s;
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #fff;
+}
+
+/* Defina o estilo da classe .especialidades .especialidades-box i aqui */
+.especialiades .especialiades-box i {
+    font-size: 80px;
+    color: aqua;
+}
+
+.especialiades.hab-box{
+    font-size: 26px;
+    margin: 15px 0;
+    text-align: right;
+}
+
+.especialiades-box p{
+    text-align: right;
+}
+

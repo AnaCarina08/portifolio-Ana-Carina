@@ -1,0 +1,6 @@
+links
+site de padrão de texto
+Documentação do usuário do padrão de texto
+Padrão de texto no GitHub
+Padrão de texto no Mastodon
+Padrão de texto no Twitter
